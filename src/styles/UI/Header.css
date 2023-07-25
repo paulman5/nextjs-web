@@ -1,0 +1,11 @@
+.Headersurround {
+    position: relative;
+    height:8%;
+}
+
+.Headerstyling {
+    position: fixed;
+    z-index: 1;
+    width:100%;
+    height: 50px;
+}
