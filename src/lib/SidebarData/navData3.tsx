@@ -8,31 +8,31 @@ import Invoiceicon from "../icons/Sidebaricons/Invoiceicon";
 export const navData3 = [
     {
         id:1,
-        link:"Home",
+        link:"/Home",
         title:() => "Home",
         icon:() => <Homeicon />
     },
     {
         id: 2,
-        link: "Drafthome",
+        link: "/Drafthome",
         title:() => "Draft",
         icon: () => <Drafticon />,
       },
       {
         id: 3,
-        link: "Cpq",
+        link: "/Cpq",
         title:() => "Cpq",
         icon: () => <Cpqicon />,
       },
       {
         id: 4,
-        link: "Calendar",
+        link: "/Calendar",
         title:() => "Calendar",
         icon: () => <Calendaricon />,
       },
       {
         id: 5,
-        link: "Invoice",
+        link: "/Invoice",
         title:() => "Invoice",
         icon: () => <Invoiceicon />,
       },
